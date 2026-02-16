@@ -24,8 +24,8 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique: []
-  numberOfBytes: 5462532674
-  numberOfFiles: 560
+  numberOfBytes: 13347840444
+  numberOfFiles: 656
   numberOfSubjects: 82
   schemaKey: AssetsSummary
   species:
@@ -33,9 +33,9 @@ assetsSummary:
     name: Mus musculus - House mouse
     schemaKey: SpeciesType
   variableMeasured: []
-citation: Sontheimer, Harald; Escalante, Miguel (2026) Hippocampal CA2 Perineuronal
-  Net Degradation and Social Memory Deficits in a 5XFAD Alzheimer’s Disease Mouse
-  Model (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001702/draft
+citation: Sontheimer, Harald; Escalante, Miguel; Fleischel, Erik (2026) Hippocampal
+  CA2 Perineuronal Net Degradation and Social Memory Deficits in a 5XFAD Alzheimer’s
+  Disease Mouse Model (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001702/draft
 contributor:
 - affiliation:
   - identifier: https://ror.org/0153tk833
@@ -70,6 +70,11 @@ contributor:
   roleName:
   - dcite:Funder
   schemaKey: Organization
+- includeInCitation: true
+  name: Fleischel, Erik
+  roleName:
+  - dcite:DataCurator
+  schemaKey: Person
 dateCreated: '2026-01-22T15:49:04.453463+00:00'
 description: 'This dataset contains raw and processed experimental data supporting
   the findings reported in Chaunsali et al. (2025), Alzheimer’s & Dementia, DOI:10.1002/alz.70813.
